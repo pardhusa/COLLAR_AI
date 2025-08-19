@@ -1,4 +1,4 @@
-# 🤖 Collar Bone AI
+# 🤖 COLLAR AI
 
 A comprehensive AI assistant that can search the web, access social media, generate images, and provide intelligent responses using local AI models.
 
