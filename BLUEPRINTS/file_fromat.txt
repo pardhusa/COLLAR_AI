@@ -1,0 +1,29 @@
+COLLAR_BONE_AI/
+│
+├── main.py                 # Entry point for running the AI
+├── requirements.txt        # Dependencies
+├── .env                    # All API keys
+│
+├── models/                 # LLM-related files
+│   ├── __init__.py
+│   ├── chat_models.py      # LLaMA3, Mistral connections
+│   └── embeddings.py       # (future) for semantic search
+│
+├── apis/                   # External APIs
+│   ├── __init__.py
+│   ├── bria_api.py         # Bria image generation
+│   ├── stability_api.py    # Stability AI image generation
+│   ├── serp_api.py         # Web search (SerpAPI)
+│   ├── reddit_api.py       # Reddit content
+│   └── twitter_api.py      # Twitter/X content
+│
+├── memory/                 # Chat history & memory
+│   ├── __init__.py
+│   └── memory_manager.py   # SQLite or JSON for persistent chat history
+│
+├── utils/                  # Helper functions
+│   ├── __init__.py
+│   └── config.py           # Load env variables, configs
+│
+└── tests/                  # Testing
+    └── test_apis.py
